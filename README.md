@@ -1,0 +1,3 @@
+# Potential Integer Overflow in Swift Loop
+
+This repository demonstrates a potential integer overflow bug in a simple Swift loop. The `myFunc` function calculates the sum of integers from 0 to 9. While this example is benign,  it illustrates a risk that would be more significant with a larger loop range or different data types. The solution shows how to mitigate this risk using larger integer types.
